@@ -1354,6 +1354,21 @@ img {
         padding: 3rem 2rem;
     }
 }
+/* Ensure form fields stay side-by-side on mobile as requested */
+@media (max-width: 768px) {
+    .form-row {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 0.75rem !important;
+    }
+    .input-with-icon input, .input-with-icon select {
+        padding: 0.75rem 0.75rem 0.75rem 2.5rem; /* Slightly tighter for mobile side-by-side */
+        font-size: 0.9rem;
+    }
+    .input-with-icon i {
+        left: 0.875rem;
+        font-size: 1.1rem;
+    }
+}
 @media (max-width: 768px) {
     .form-row {
         grid-template-columns: 1fr;
@@ -1580,10 +1595,14 @@ img {
         justify-content: center;
     }
     .hero-bg img {
-        object-position: 85% center; /* Better centering for the biker */
+        object-position: 33% center !important; /* Center the biker who is on the left side */
     }
     .navbar .logo {
-        width: 180px; /* Smaller logo container on mobile */
+        width: 160px; /* Even smaller to fit better */
+    }
+    .nav-actions .btn-primary {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
     }
 }
 
