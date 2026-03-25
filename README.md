@@ -37,3 +37,18 @@ Century Holidays is a high-end, modern travel website designed for adventure see
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🛠️ Future Updates & Maintenance
+
+Your website is now safely stored on GitHub: [new-century-holidays-website](https://github.com/rushikeshvyawaharebusiness-netizen/new-century-holidays-website)
+
+### How to Edit Your Website
+1.  **Clone/Download**: Access your code from any machine via GitHub.
+2.  **Make Changes**: Edit HTML, CSS, or JS files.
+3.  **Save & Sync**:
+    ```bash
+    git add .
+    git commit -m "Your update description"
+    git push origin master
+    ```
+4.  **Auto-Deploy**: Link your GitHub repo to [Vercel](https://vercel.com) for automatic live updates every time you save!
