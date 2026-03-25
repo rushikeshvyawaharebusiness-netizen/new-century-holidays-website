@@ -1421,7 +1421,7 @@ img {
 
 @media (max-width: 1024px) {
     .premium-contact-box {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important; /* Force stacking on tablet/mobile */
         margin-top: 0;
     }
     .contact-info-panel {
@@ -1579,7 +1579,7 @@ img {
         justify-content: center;
     }
     .hero-bg img {
-        object-position: 75% center; /* Keep the biker in frame on mobile */
+        object-position: 80% center; /* Adjust to ensure the biker is better visible on mobile */
     }
     .navbar .logo {
         width: 180px; /* Smaller logo container on mobile */
