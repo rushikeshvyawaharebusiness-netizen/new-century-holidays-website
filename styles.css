@@ -1421,14 +1421,15 @@ img {
 
 @media (max-width: 1024px) {
     .premium-contact-box {
-        grid-template-columns: 1fr !important; /* Force stacking on tablet/mobile */
+        display: block !important; /* Force block layout to ensure stacking */
+        grid-template-columns: 1fr !important;
         margin-top: 0;
     }
     .contact-info-panel {
-        padding: 3rem 2rem;
+        padding: 3rem 1.5rem !important;
     }
     .contact-form-panel {
-        padding: 3rem 2rem;
+        padding: 3rem 1.5rem !important;
     }
 }
 .contact-info-panel {
@@ -1579,7 +1580,7 @@ img {
         justify-content: center;
     }
     .hero-bg img {
-        object-position: 80% center; /* Adjust to ensure the biker is better visible on mobile */
+        object-position: 85% center; /* Better centering for the biker */
     }
     .navbar .logo {
         width: 180px; /* Smaller logo container on mobile */
