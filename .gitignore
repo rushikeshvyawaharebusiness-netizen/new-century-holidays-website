@@ -1,0 +1,14 @@
+# Environment and log files
+.gemini/
+brain/
+tmp/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Editor settings
+.vscode/
+.idea/
+*.swp
