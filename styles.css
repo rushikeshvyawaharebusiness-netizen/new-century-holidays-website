@@ -1418,6 +1418,19 @@ img {
     margin-top: -6rem;
     margin-bottom: 4rem;
 }
+
+@media (max-width: 1024px) {
+    .premium-contact-box {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+    .contact-info-panel {
+        padding: 3rem 2rem;
+    }
+    .contact-form-panel {
+        padding: 3rem 2rem;
+    }
+}
 .contact-info-panel {
     background: linear-gradient(135deg, var(--secondary) 0%, #172554 100%);
     color: white;
@@ -1565,6 +1578,12 @@ img {
     .hero-cta {
         justify-content: center;
     }
+    .hero-bg img {
+        object-position: 75% center; /* Keep the biker in frame on mobile */
+    }
+    .navbar .logo {
+        width: 180px; /* Smaller logo container on mobile */
+    }
 }
 
 @media (max-width: 768px) {
@@ -1594,6 +1613,34 @@ img {
     }
     .contact-header-clean h1 {
         font-size: 2.75rem;
+    }
+    /* Additional Mobile Polish */
+    .hero-title {
+        font-size: 2rem !important;
+        line-height: 1.2;
+    }
+    .section-title {
+        font-size: 2rem !important;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+    .btn-large {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.75rem !important;
+    }
+    .contact-header-clean h1 {
+        font-size: 2.25rem;
+    }
+    .logo {
+        height: 40px;
+        width: 160px;
     }
 }
 
