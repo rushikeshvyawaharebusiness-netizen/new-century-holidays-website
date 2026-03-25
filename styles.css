@@ -1369,11 +1369,6 @@ img {
         font-size: 1.1rem;
     }
 }
-@media (max-width: 768px) {
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* Contact Page Specifics - Clean Layout */
 .contact-header-clean {
